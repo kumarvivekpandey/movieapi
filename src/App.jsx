@@ -16,7 +16,7 @@ export default function App() {
     })
   },[])
   return (
-    <div className="conatiner">
+    <div className="conatiner pt-2">
       <Navbar />
       <div className="grid">
       {movies.map((movieReq)=><MovieBox key={movieReq.id} {...movieReq} />)}
